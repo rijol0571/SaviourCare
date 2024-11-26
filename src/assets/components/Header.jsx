@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assets/svg/logo.svg";
+import logo from "../../assets/svg/logo.png";
 
 
 
@@ -8,9 +8,9 @@ const Header = () => {
     <section className="my-8">
     <div className="container">
       <div className="navbar flex items-center justify-between">
-        {/* Logo */}
+   
         <div className="logo">
-          <img src={logo} alt="Logo" className="h-8" />
+          <img src={logo} alt="logo" className="h-8" />
         </div>
 
         {/* Menus */}
